@@ -39,7 +39,7 @@ pip install pyswatplus
 Or from source:
 
 ```bash
-git clone https://github.com/sromarshall/PySWATPlus.git
+git clone https://github.com/rushmarshall/PySWATPlus.git
 cd PySWATPlus
 pip install -e ".[dev]"
 ```
@@ -158,7 +158,7 @@ pyswatplus/
 Contributions welcome. Please open an issue to discuss proposed changes before submitting a pull request.
 
 ```bash
-git clone https://github.com/sromarshall/PySWATPlus.git
+git clone https://github.com/rushmarshall/PySWATPlus.git
 cd PySWATPlus
 pip install -e ".[dev]"
 pytest tests/ -v
