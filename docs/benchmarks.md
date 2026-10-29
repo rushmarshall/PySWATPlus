@@ -1,16 +1,16 @@
-<!-- fingerprint:c533196bbae7c5fa696be67946e910dd -->
+<!-- fingerprint:1ffd9c23128b54aa9ae48cb1d5bc0168 -->
 # Calibration Algorithm Benchmarks
 
-*Last updated: 2026-10-28 09:49 UTC*
+*Last updated: 2026-10-29 09:50 UTC*
 
 Synthetic benchmark on the **Rosenbrock** test function f(x,y) = (1−x)² + 100·(y−x²)²  with random starting points.
 
 | Algorithm | Iterations | Best Objective | Convergence Rate |
 |-----------|-----------|----------------|------------------|
-| DDS | 500 | 4.483595e-01 | 100.00% |
-| PSO | 500 | 5.074733e-19 | 100.00% |
-| GLUE | 500 | 2.217617e-01 | 100.00% |
-| Sobol | 500 | 4.769284e-04 | 99.62% |
+| DDS | 500 | 2.885570e-01 | 99.97% |
+| PSO | 500 | 3.022026e-17 | 99.86% |
+| GLUE | 500 | 9.278584e-02 | 100.00% |
+| Sobol | 500 | 2.224218e-04 | 99.62% |
 
 ![Convergence plot](benchmark-convergence.png)
 
